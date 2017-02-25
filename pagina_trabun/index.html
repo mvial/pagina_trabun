@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- definiciones previas a la pagina -->
+<head>
+  <title>Fundacion Trabun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- gran parte de las clases usadas son obtenidas de bootstrap, google y otros-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+  <!-- en la hoja de estilo propia, sobreescribe o define visualizacion de nuevas clases o id -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<!-- Esta pagina se estructura en contenedores que forman una gran columna de contenidos, cada uno independiente. -->
+<!-- inicio de la pagina misma-->
+<body> 
+
+<!-- inicio barra de navegacion -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <!--  <div class="container"> -->
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header page-scroll">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#portada">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <img src="img/logo/mono_trabün_blanco.png" alt="Logo Fundacion" href="#portada">
+    <!-- <a class="navbar-brand page-scroll" href="index.html">Trabün</a> -->
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="hidden">
+          <a href=""></a>
+      </li>
+      <li class="">
+          <a class="page-scroll" href="#que_hacemos">Qué hacemos</a>
+      </li>
+      <li>
+          <a class="page-scroll" href="#quienes_somos">Quiénes somos</a>
+      </li>
+      <li>
+          <a class="page-scroll" href="#aporta">Aporta</a>
+      </li> 
+      <li>
+          <a class="page-scroll" href="galery.html?">Galería</a>
+      </li>                    
+      <li class="menu-social">
+          <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+          <a href="https://www.instagram.com/fundaciontrabun/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+      </li>
+    </ul>
+  </div>
+  <!-- /.navbar-collapse -->
+  <!-- </div> -->
+  <!-- /.container-fluid -->
+</nav>
+<!-- fin barra de navegacion -->
+
+<!-- inicio contenedor de la portada -->
+<div class="container-fluid">
+    <div id="portada" class="row">
+      <div id="fondo-portada"></div>
+        <img src="img/logo/logo.png" alt="Logo Fundacion">
+        <h1>Jugando se aprende<br></h1>
+    </div>
+</div>
+<!-- fin contenedor de la portada -->  
+
+<!-- inicio contenedor de que hacemos -->
+<div class="container" id="que_hacemos">
+  <div class="row">
+    <div class="col-sm-5">
+      <h3>Qué hacemos</h3>
+      <p>Realizamos talleres para desarrollar habilidades de manera entretenida e interactiva en distintos colegios con alumnos del propio colegio.</p>
+    </div>
+    <div class="col-sm-7">
+      
+      <video class="video-portada" controls>
+        <source src="video_final_2015.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+<!-- fin contenedor de que hacemos -->
+
+<!-- fin contenedor de quienes somos -->
+<div class="container" id="quienes_somos">
+  <div class="row">
+    <div class="col-sm-3">
+
+    <ul class="nav nav-tabs nav-stacked">
+      <li class="active"><a data-toggle="tab" href="#mision_vision">Misión/Visión</a></li>
+      <li><a data-toggle="tab" href="#pilares">Pilares</a></li>
+      <li><a data-toggle="tab" href="#directiva">Directiva</a></li>
+      <li><a data-toggle="tab" href="#equipo">Equipo</a></li>
+      <li><a data-toggle="tab" href="#consejo_asesor">Consejo Asesor</a></li>
+    </ul>
+
+    </div>
+    <div class="col-sm-9">
+    <div class="tab-content">
+      <div id="mision_vision" class="tab-pane fade in active">
+        <h3>Misión</h3>
+        <p>Contribuir a la formación integral de niños mediante el fortalecimiento de la labor de los colegios con talleres extraprogramáticos que desarrollan nuevas habilidades y permiten formar un vínculo entre el tutor y los niños que tiene a su cargo.</p>
+        <h3>Visión</h3>
+        <p>Buscamos ser una ayuda eficaz en la diversificación y aumento de la calidad de la educación entregada por todos los colegios enfocados en niños de escasos recursos de Chile. Queremos que no quede ningún estudiante sin un acompañamiento personal en su desarrollo escolar.</p>
+      </div>
+      <div id="pilares" class="tab-pane fade">
+        <h3>Pilares</h3>
+        <p><img src="img/pilares.png"></p>
+      </div>
+      <div id="directiva" class="tab-pane fade">
+        <h3>Directiva</h3>
+        <div class="row miembros">
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
+              <h6>Felipe Vandeputte</h6>
+              <p>Director ejecutivo</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/parodi.png" alt="Imagen no disponible">
+              <h6>José Manuel Parodi</h6>
+              <p>...</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/basaure.png" alt="Imagen no disponible">
+              <h6>Nicolás Basure</h6>
+              <p>Candidato a joven lider</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
+              <h6>Felipe Vandeputte</h6>
+              <p>Director ejecutivo</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/parodi.png" alt="Imagen no disponible">
+              <h6>José Manuel Parodi</h6>
+              <p>...</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/basaure.png" alt="Imagen no disponible">
+              <h6>Nicolás Basure</h6>
+              <p>Candidato a joven lider</p>
+          </div>          
+        </div>
+      </div>
+      <div id="equipo" class="tab-pane fade">
+        <h3>Equipo</h3>
+        <div class="row miembros">
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="">
+                <h6>Felipe Vandeputte</h6>
+                <p>Director ejecutivo</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/parodi.png" alt="">
+              <h6>José Manuel Parodi</h6>
+              <p>...</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/basaure.png" alt="">
+              <h6>Nicolás Basure</h6>
+              <p>Candidato a joven lider</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
+                <h6>Felipe Vandeputte</h6>
+                <p>Director ejecutivo</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/parodi.png" alt="Imagen no disponible">
+              <h6>José Manuel Parodi</h6>
+              <p>...</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/basaure.png" alt="Imagen no disponible">
+              <h6>Nicolás Basure</h6>
+              <p>Candidato a joven lider</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
+                <h6>Felipe Vandeputte</h6>
+                <p>Director ejecutivo</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/parodi.png" alt="Imagen no disponible">
+              <h6>José Manuel Parodi</h6>
+              <p>...</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/basaure.png" alt="Imagen no disponible">
+              <h6>Nicolás Basure</h6>
+              <p>Candidato a joven lider</p>
+          </div>        
+        </div>
+      </div>
+      <div id="consejo_asesor" class="tab-pane fade">
+        <h3>Consejo Asesor</h3>
+        <div class="row miembros">
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="">
+                <h6>Felipe Vandeputte</h6>
+                <p>Director ejecutivo</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/parodi.png" alt="">
+              <h6>José Manuel Parodi</h6>
+              <p>...</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/basaure.png" alt="">
+              <h6>Nicolás Basure</h6>
+              <p>Candidato a joven lider</p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
+                <h6>Felipe Vandeputte</h6>
+                <p>Director ejecutivo</p>
+          </div>       
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- fin contenedor de quienes somos -->
+
+<!-- inicio contenedor de colegios -->
+<div class="container" id="colegios">
+  <h1>Colegios</h1>
+  <img src="img/diagrama colegios.png" alt="Mapa con colegios"></img>
+</div>
+<!-- fin contenedor de colegios-->
+
+
+<!-- inicio contenedor de calendario -->
+<div class="container" id="calendario">
+  <h1 id="titulo_calendario">Calendario</h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      
+      <div class="item active">
+        <img src="calendario/marzo.png" alt="Marzo">
+      </div>
+
+      <div class="item">
+        <img src="calendario/abril.png" alt="Abril">
+      </div>
+
+      <div class="item">
+        <img src="calendario/mayo.png" alt="Mayo">
+      </div>
+
+      <div class="item">
+        <img src="calendario/junio.png" alt="Junio">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> <!-- termina el carrusel -->
+</div>
+<!-- fin contenedor de calendario -->
+
+<!-- inicio contenedor de aporta -->
+<div class="container" id="aporta">
+  <h2>Aporta</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Ideas</h3>
+      <p id="mensaje_formulario">Mandanos ideas que nos permitan seguir mejorando.</p>
+      <p>Mail: fundaciontrabun@gmail.com</p>
+      <!-- <form>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Nombre</label>
+        <input type="text" class="form-control" id="formGroupName">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Apellido</label>
+        <input type="text" class="form-control" id="formGroupSecondName">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Email</label>
+        <input type="text" class="form-control" id="formGroupEmail">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Mensaje</label>
+        <input type="text" class="form-control" id="formGroupMensaje" placeholder="mensaje">
+      </div>
+      <button id="boton_enviar" type="button" class="btn btn-primary">Enviar</button>
+    </form> -->
+    </div>
+    <div class="col-sm-6">
+      <h3>Plata</h3>
+
+      <p>Nombre: Fundación Trabün</p>
+      <p>Rut: 65.120.259 - 0</p>
+      <p>Banco Consorcio</p>
+      <p>Cuenta vista: 4010453441</p>
+      <p>Mail: fundaciontrabun@gmail.com</p>
+    </div>
+  </div>
+</div>
+<!-- fin contenedor de aporta -->
+
+<!--footer-->
+
+
+<!-- <script>
+document.getElementById("boton_enviar").onclick = function () {
+    document.getElementById("mensaje_formulario").innerHTML = "Gracias por tu aporte!";
+    /*lograr que se guarde en una base de datos todo lo ingresado y se limpie el formulario*/
+}
+</script> -->
+
+
+</body>
+</html>

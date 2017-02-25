@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- definiciones previas a la pagina -->
+<head>
+  <title>Fundacion Trabun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- gran parte de las clases usadas son obtenidas de bootstrap, google y otros-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+  <!-- en la hoja de estilo propia, sobreescribe o define visualizacion de nuevas clases o id -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style_gallery.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<!-- Esta pagina se estructura en contenedothumbnailsr width="250"man una gran columna de contenidos, cada uno independiente. -->
+<!-- inicio de la pagina misma-->
+<body> 
+
+<!-- inicio barra de navegacion -->
+<nav class="navbar navbar-default navbar-fixed-top">
+       <!--  <div class="container"> -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#portada">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="img/logo/mono_trabün_blanco.png" alt="Logo Fundacion" href="#portada">
+                <!-- <a class="navbar-brand page-scroll" href="index.html">Trabün</a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href=""></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="index.html?#que_hacemos">Qué hacemos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html?#quienes_somos">Quiénes somos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html?#aporta">Aporta</a>
+                    </li>                    
+                    <li>
+                        <a class="page-scroll" href="galery.html?">Galería</a>
+                    </li>     
+                    <li class="menu-social">
+                        <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/fundaciontrabun/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        <!-- </div> -->
+        <!-- /.container-fluid -->
+    </nav>
+<!-- fin barra de navegacion -->
+
+<!-- inicio contenedor de la portada -->
+<div class="container-fluid">
+
+          <div id="fondo-galeria" class="row">
+              <div id="fondo-portada"></div>
+              <img src="img/logo/logo.png" alt="Logo Fundacion">
+              <h1>Jugando se aprende<br></h1>
+          </div>
+      </div>
+<div class="container" id="galery">
+  <ul id="image-list" class="row">
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-1.jpg" data-toggle="modal" data-target="#myModal"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-2.jpg"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-3.jpg"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-4.jpg"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-7.jpg"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-8.jpg"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-9.jpg"></div></li>
+      <li class="col-sm-4"><div><img class="img-thumbnails" width="250" src="img/img-10.jpg"></div></li>
+  </ul>
+</div>
+<!-- fin contenedor de la portada -->  
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div><img class="img-thumbnails"  src="img/img-1.jpg"></div>
+        </div>
+
+      </div>
+    </div>
+      
+  </div>
+  
+<!--footer-->
+
+<!-- <script>
+document.getElementById("boton_enviar").onclick = function () {
+    document.getElementById("mensaje_formulario").innerHTML = "Gracias por tu aporte!";
+    /*lograr que se guarde en una base de datos todo lo ingthumbnailse width="250" limpie el formulario*/
+}
+</script> -->
+
+
+</body>
+</html>

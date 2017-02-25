@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<html>
+<head>
+  <title>Galeria Fundacion Trabun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- gran parte de las clases usadas son obtenidas de bootstrap, google y otros-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+  <!-- en la hoja de estilo propia, sobreescribe o define visualizacion de nuevas clases o id -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style_gallery.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- inicio barra de navegacion -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header page-scroll">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#portada">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <img src="img/logo/mono_trabün_blanco.png" alt="Logo Fundacion" href="#portada">
+    <!-- <a class="navbar-brand page-scroll" href="index.html">Trabün</a> -->
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="hidden">
+          <a href=""></a>
+      </li>
+      <li class="">
+          <a class="page-scroll" href="index.html?#que_hacemos">Qué hacemos</a>
+      </li>
+      <li>
+          <a class="page-scroll" href="index.html?#quienes_somos">Quiénes somos</a>
+      </li>
+      <li>
+          <a class="page-scroll" href="index.html?#aporta">Aporta</a>
+      </li>                    
+      <li>
+          <a class="page-scroll" href="galery.html?">Galería</a>
+      </li>     
+      <li class="menu-social">
+        <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+        <a href="https://www.instagram.com/fundaciontrabun/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+      </li>
+    </ul>
+  </div>
+  <!-- /.navbar-collapse -->
+  <!-- /.container-fluid -->
+</nav>
+<!-- fin barra de navegacion -->
+
+<!-- inicio contenedor de la portada -->
+<div class="container-fluid">
+  <div id="fondo-galeria" class="row">
+    <div id="fondo-portada"></div>
+    <img src="img/logo/logo.png" alt="Logo Fundacion" id=logo_fondo>
+    <h1>Jugando se aprende<br></h1>
+  </div>
+</div>
+
+<!-- inicio contenedor carrusel -->
+<div class="container" id="contenedor_carrusel">
+  
+  <div id="carrusel_galeria" class="carousel slide" data-ride="carousel">
+    <!-- indicadores (abajo del carrusel salen unas pelotitas blancas que indican en que imagen estas)-->
+    <ol class="carousel-indicators">
+      <li data-target="#carrusel_galeria" data-slide-to="0" class="active"></li>
+      <li data-target="#carrusel_galeria" data-slide-to="1"></li>
+      <li data-target="#carrusel_galeria" data-slide-to="2"></li>
+      <li data-target="#carrusel_galeria" data-slide-to="3"></li>
+      <li data-target="#carrusel_galeria" data-slide-to="4"></li>
+      <li data-target="#carrusel_galeria" data-slide-to="5"></li>
+    </ol>
+
+    <!-- contenedor de las imagenes -->
+    <div class="carousel-inner" role="listbox">
+      
+      <!-- cada uno de estos es una imagen del carrusel (alt es lo que aparece si una imagen no esta disponible) -->
+      <div class="item active">
+        <img src="img/img-15.jpg" alt="Imagen no disponible">
+      </div>
+
+      <div class="item">
+        <img src="img/img-2.jpg" alt="Imagen no disponible">
+      </div>
+
+      <div class="item">
+        <img src="img/img-3.jpg" alt="Imagen no disponible">
+      </div>
+
+      <div class="item">
+        <img src="img/img-4.jpg" alt="Imagen no disponible">
+      </div>
+      
+      <div class="item">
+        <img src="img/img-5.jpg" alt="Imagen no disponible">
+      </div>
+
+      <div class="item">
+        <img src="img/img-6.jpg" alt="Imagen no disponible">
+      </div>
+    </div>
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#carrusel_galeria" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carrusel_galeria" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> <!-- termina el carrusel -->
+</div>
+<!-- fin contenedor carrusel -->
+
+<!-- inicio galeria carpetas -->
+<div class="container" id="galeria_carpetas">
+
+  <h1>Galeria</h1>
+
+  <!-- cada uno de estos elementos contiene una foto que redirecciona a un album de facebook o instagram-->
+  <div class="col-sm-3 contenedor_foto" style="background-image: url(img/img-1.jpg)">
+   <div class="cubre_foto">
+    <!-- titulo album -->
+    <h5>Foto general</h5>
+    <!-- descripcion del album -->
+    <p>Foto de todos los alumnos, colegio Monte Olivo.</p>
+    <!-- link al album (taget permite que el link se abra en otro tab)-->
+    <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank">Ver más</a>
+   </div>
+  </div>
+
+  <div class="col-sm-3 contenedor_foto" style="background-image: url(img/img-2.jpg)">
+   <div class="cubre_foto">
+    <h5>Foto general</h5>
+    <p>Foto de todos los alumnos, colegio Monte Olivo.</p>
+    <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank">Ver más</a>
+   </div>
+  </div>
+
+  <div class="col-sm-3 contenedor_foto" style="background-image: url(img/img-3.jpg)">
+   <div class="cubre_foto">
+    <h5>Foto general</h5>
+    <p>Foto de todos los alumnos, colegio Monte Olivo.</p>
+    <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank">Ver más</a>
+   </div>
+  </div>
+  
+  <div class="col-sm-3 contenedor_foto" style="background-image: url(img/img-4.jpg)">
+   <div class="cubre_foto">
+    <h5>Foto general</h5>
+    <p>Foto de todos los alumnos, colegio Monte Olivo.</p>
+    <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank">Ver más</a>
+   </div>
+  </div>
+  
+  <div class="col-sm-3 contenedor_foto" style="background-image: url(img/img-5.jpg)">
+   <div class="cubre_foto">
+    <h5>Foto general</h5>
+    <p>Foto de todos los alumnos, colegio Monte Olivo.</p>
+    <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank">Ver más</a>
+   </div>
+  </div> 
+
+</div>
+<!-- fin contenedor galeria carpetas-->
+
+<!-- esta linea importa la libreria de javascript jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- este javascript permite mantener las proporciones alto-ancho del carrusel y de las galeria -->
+<script type="text/javascript">
+  $(window).ready(updateHeight_carousel);
+  $(window).resize(updateHeight_carousel);
+
+  function updateHeight_carousel()
+  {
+      var div = $('#carrusel_galeria');
+      var width = div.width()*0.7;
+      
+      div.css('height', width);
+  }
+
+  $(window).ready(updateHeight_images);
+  $(window).resize(updateHeight_images);
+
+  function updateHeight_images()
+  {
+      var div = $('.col-sm-3 contenedor_foto');
+      var width = div.width()*0.7;
+      
+      div.css('height', width);
+  }
+</script>
+
+</body>
+</html>

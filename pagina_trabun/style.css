@@ -1,0 +1,285 @@
+/* # para definir por id, . para definir por class*/
+
+/* referencia la fuente al nombre puesto, en este caso, bms*/
+@font-face {
+    font-family: "bms";
+    src: url("fonts/BlackmetalSans.ttf");
+}
+
+@font-face {
+    font-family: "ale-sc";
+    src: url("fonts/alegreya/AlegreyaSansSC-Thin.otf");
+}
+
+@font-face {
+    font-family: "ale";
+    src: url("fonts/alegreya/AlegreyaSans-Thin.otf");
+}
+
+/* instrucciones generales, que seran heredadas por los elementos interiores*/
+body {
+	background-color: #777777;
+	color: white;
+	padding-top: 0px;
+    font-family: "bms", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+	font-family: "ale-sc";
+	text-align:justify;
+	font-size: 16px;
+}
+
+/* maneja el tamaño maximo de las imagenes*/
+body img{
+	max-width: 100%;
+}
+
+/* maneja el tamaño del video */
+video{
+	width:90%;
+}
+
+
+/* para que las columnas no queden sobrepuestas
+@media{
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: inherit;
+	}
+}*/
+
+/*manejo de la barra de navegacion*/
+/*color, transparencia y linea de borde inferior*/
+.navbar{
+	background-color: #686868;
+	background-image: url(img/logo/barra_sup-01.jpg);
+	opacity: 0.9;
+	border-bottom: 0px solid rgba(68, 68, 68, 0.498039);
+	font-size: 15px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #ddd;
+    color: #fff;
+}
+
+/*color del primer elemento*/
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-header{
+	width: 20%;
+	min-width: 30px;
+	/*arriba, izquierda, abajo, derecha */
+	padding: 8px 0 8px 2%;
+}
+.navbar-header img{
+	width: 15%; 
+}
+
+/*color de elementos de menu*/
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: 15px;
+}
+/*ajuste de margen superior para los logos*/
+li.menu-social{
+    padding-top: 15px;
+}
+
+/*ajusta el menu para que muestre un logo al lado del otro (no abajo)*/
+li.menu-social a{
+    display: inline;
+}
+
+/*manejo de la portada*/
+/*pone la foto de fondo en la portada*/
+#fondo-portada{
+    height: inherit;
+    width: inherit;
+    position: fixed;
+    z-index: -100;
+    background-image: url(img/img-1.jpg);
+    background-size: cover;
+}
+
+/* define dimensiones, alineacion de texto, lo que muestra al sobrepasar los limites y el color de la letra*/
+#portada{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+/*manejo de las imagenes de la portada*/
+/* define la distancia al margen superior, el alto y ancho maximos de la imagen (con respectoa a la original)*/
+#portada img{
+    margin-top: 5%;
+    max-height: 50%;
+    max-width: 80%;
+    z-index: 100;
+}
+
+.container{
+	opacity: 0.95;
+	padding: 30px 50px 30px 50px;
+}
+
+/*manejo de que hacemos*/
+#que_hacemos{
+	background-color: #009fe3; 
+	opacity: 0.99; 
+	width:100%;
+}
+
+/*manejo de colegios*/
+#colegios{
+	background-color: #bccf00; 
+	opacity:0.99; 
+	width:100%;
+}
+
+/*manejo de calendario*/
+#calendario{
+	background-color: rgba(256,237,0,0.9); /*#ffed00*/ 
+	opacity:0.99; 
+	width:100%;
+}
+
+#titulo_calendario{
+	background-image: url(img/logo/mancha_titulo-01.png);
+    background-size: normal;
+    background-size: 502px 64px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding: 20px 0 10px 0;
+    background-position-y: bottom;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-color: rgba(256,256,256,0);
+	background-image: none;
+	opacity: 1;
+}
+
+.carousel-control:focus, .carousel-control:hover {
+	background-color: rgba(256,256,256,0);
+     opacity: 1;
+}
+
+
+
+/*manejo de quienes somos*/
+#quienes_somos{
+	background-color: #f39200; 
+	width:100%;
+	padding:1px 0 0 0;
+	opacity: 0.99;
+	float: none;
+}
+
+.nav-tabs>li>a{
+	font-size: 20px;
+	color: white;
+}
+
+#quienes_somos ul.nav-tabs>li>a:hover{
+	background-color: rgba(256,256,256,0);
+	border: 0px;
+	color: #f5f5f5;
+}
+
+#quienes_somos>ul.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+#equipo img, #directiva img, #consejo_asesor img {
+	width: 60%;
+	/*height:15%;*/
+	border-radius: 50%;
+	max-height: 100px;
+	max-width: 100px;
+	display: block;
+    margin: auto;
+}
+
+.miembro {
+    float: left;
+    width: 25%;
+    height: 165px;
+    padding: 0px 10px;
+}
+
+.miembro h6{
+	text-align: center;
+	font-family: "ale";
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+.miembro p{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .miembro {
+        width: 50%
+    }
+}
+
+/*#equipo p{
+
+}*/
+
+
+.tab-content {
+	padding: 1px 3px 1px 3px;
+}
+
+/*manejo de aporta*/
+#aporta{
+	background-color: rgba(227,06,19,0.9); /*#e30613*/
+
+	width:100%;
+}
+
+/*#galery div{
+	height: 300px;
+}*/
+
+ul{
+	list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
