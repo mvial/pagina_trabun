@@ -58,10 +58,13 @@ video{
 /*color, transparencia y linea de borde inferior*/
 .navbar{
 	background-color: #686868;
-	background-image: url(img/logo/barra_sup-01.jpg);
+	background-image: url(img/logo/barra_sup-02.jpg);
 	opacity: 0.9;
-	border-bottom: 0px solid rgba(68, 68, 68, 0.498039);
-	font-size: 15px;
+	border: 0px solid rgba(68, 68, 68, 0.498039);
+	font-size: 17px;
+	position:fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav-tabs {
@@ -74,6 +77,10 @@ video{
     color: #fff;
 }
 
+.navbar-collapse {
+	border: 0px solid rgba(68, 68, 68, 0.498039);
+}
+
 .navbar-header{
 	width: 20%;
 	min-width: 30px;
@@ -81,7 +88,9 @@ video{
 	padding: 8px 0 8px 2%;
 }
 .navbar-header img{
-	width: 15%; 
+	height: 45px;
+	overflow: ;
+	/*width: 15%;*/ 
 }
 
 /*color de elementos de menu*/
@@ -93,6 +102,32 @@ video{
     float: right!important;
     margin-right: 15px;
 }
+
+.navbar.toggle{
+	float:right;
+}
+
+@media (max-width: 768px) {
+	.navbar-header{
+		width: 100%;
+	}
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #777;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+    background-color: rgba(77,77,77,0.6);
+}
+
+
 /*ajuste de margen superior para los logos*/
 li.menu-social{
     padding-top: 15px;
@@ -255,7 +290,7 @@ li.menu-social a{
 
 
 .tab-content {
-	padding: 1px 3px 1px 3px;
+	padding: 1px 20px 5px 10px;
 }
 
 /*manejo de aporta*/

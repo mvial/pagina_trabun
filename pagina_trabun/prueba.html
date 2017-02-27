@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+<!--       <img src="img/logo/mono_trabün_blanco.png" alt="Logo Fundacion" href="#portada"> -->
+      <a href="#">
+        <img src="img/logo/mono_trabün_blanco.png" alt="Logo Fundacion" href="#portada">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#que_hacemos">Qué hacemos</a></li>
+        <li><a href="#quienes_somos">Quiénes somos</a></li>
+        <li><a href="#aporta">Aporta</a></li>
+        <li><a href="galery.html?">Galería</a></li>
+        <li class="menu-social">
+          <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+          <a href="https://www.instagram.com/fundaciontrabun/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<h1>JavaScript in Body</h1>
+
+<p id="111">A Paragraph.</p>
+
+<button id="boton" type="button">Try it</button>
+
+<form method="post" action="mailto:vial95@gmail.com" >
+<input type="submit" value="Send Email" /> 
+</form>
+
+<!-- <script>
+document.getElementById("boton").onclick = function () {
+    document.getElementById("111").innerHTML = "Paragraph changed.";
+}
+</script> -->
+
+<form method="GET" action="mailto:test@example.com" enctype="text/plain">
+    <div>Subject</div>
+    <input type="text" name="subject" />
+
+    <div>Name</div>
+    <input name="Name" />
+
+    <div>E-Mail</div>
+    <input name="E-Mail Address" />
+
+    <div>Message</div>
+    <textarea name="Message"></textarea>
+
+    <br/>
+    <input type="submit" value="Send" />
+
+    <input type="hidden" name="body" />
+</form>
+
+<form method="GET" action="mailto:test@example.com" enctype="text/plain">
+    <div>Subject</div>
+    <input type="text" name="subject" />
+
+    <div>Name</div>
+    <input name="Name" />
+
+    <div>E-Mail</div>
+    <input name="E-Mail Address" />
+
+    <div>Message</div>
+    <textarea name="Message"></textarea>
+
+    <br/>
+    <input type="submit" value="Send" />
+
+    <input type="hidden" name="body" />
+</form>
+
+<form method="GET" action="mailto:test@example.com" enctype="text/plain">
+    <div>Subject</div>
+    <input type="text" name="subject" />
+
+    <div>Name</div>
+    <input name="Name" />
+
+    <div>E-Mail</div>
+    <input name="E-Mail Address" />
+
+    <div>Message</div>
+    <textarea name="Message"></textarea>
+
+    <br/>
+    <input type="submit" value="Send" />
+
+    <input type="hidden" name="body" />
+</form>
+
+<script>
+   var form = document.getElementsByTagName('form')[0];
+   form.addEventListener('submit',contact,false);
+   function contact(e) {
+      // Prevent Default Form Submission
+      e.preventDefault();
+
+      var target = e.target || e.srcElement;
+      var i = 0;
+      var message = '';
+
+      // Loop Through All Input Fields
+      for(i = 0; i < target.length; ++i) {
+         // Check to make sure it's a value. Don't need to include Buttons
+         if(target[i].type != 'text' && target[i].type != 'textarea') {
+                // Skip to next input since this one doesn't match our rules
+            continue;
+         }
+
+         // Add Input Name and value followed by a line break
+         message += target[i].name + ': ' + target[i].value + "\r\n";
+      }
+      // Modify the hidden body input field that is required for the mailto: scheme
+      target.elements["body"].value = message;
+
+      // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
+      this.submit();
+   }
+</script>
+
+
+
+</body>
+</html> 
