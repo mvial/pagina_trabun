@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-
+ 
 <!-- definiciones previas a la pagina -->
 <head>
   <title>Fundacion Trabun</title>
+
+  <link rel="shortcut icon" href="favicon.ico" />
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,9 +17,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-
   <!-- en la hoja de estilo propia, sobreescribe o define visualizacion de nuevas clases o id -->
   <link href="style.css" rel="stylesheet" type="text/css">
 
@@ -37,14 +37,14 @@
         <span class="icon-bar"></span>                        
       </button>
       <a href="#">
-        <img src="img/logo/mono_trabün_blanco.png" alt="Logo Fundacion" href="#portada">
+        <img src="img/logo/mono_trabun_blanco.png" alt="Logo Fundacion" href="index.html?#portada">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#que_hacemos">Qué hacemos</a></li>
-        <li><a href="#quienes_somos">Quiénes somos</a></li>
-        <li><a href="#aporta">Aporta</a></li>
+        <li><a href="index.html?#que_hacemos">Qué hacemos</a></li>
+        <li><a href="index.html?#quienes_somos">Quiénes somos</a></li>
+        <li><a href="index.html?#aporta">Aporta</a></li>
         <li><a href="galery.html?">Galería</a></li>
         <li class="menu-social">
           <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -70,8 +70,8 @@
 <div class="container" id="que_hacemos">
   <div class="row">
     <div class="col-sm-5">
-      <h3>Qué hacemos</h3>
-      <p>Realizamos talleres para desarrollar habilidades de manera entretenida e interactiva en distintos colegios con alumnos del propio colegio.</p>
+    	<h3>Qué hacemos</h3>
+    	<p>Realizamos talleres para desarrollar habilidades de manera entretenida e interactiva en distintos colegios con sus popios alumnos.</p>
     </div>
     <div class="col-sm-7">
       
@@ -80,6 +80,7 @@
       </video>
     </div>
   </div>
+  <img src="img/modelo_accion-01.png">
 </div>
 <!-- fin contenedor de que hacemos -->
 
@@ -88,7 +89,7 @@
   <div class="row">
     <div class="col-sm-3">
 
-    <ul class="nav nav-tabs nav-stacked">
+    <ul class="nav nav-tabs nav-stacked" id="menu_quienes_somos">
       <li class="active"><a data-toggle="tab" href="#mision_vision">Misión/Visión</a></li>
       <li><a data-toggle="tab" href="#pilares">Pilares</a></li>
       <li><a data-toggle="tab" href="#directiva">Directiva</a></li>
@@ -113,112 +114,163 @@
         <h3>Directiva</h3>
         <div class="row miembros">
           <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
+              <img src="directiva/f_vandeputte.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
               <h6>Felipe Vandeputte</h6>
               <p>Director ejecutivo</p>
           </div>
           <div class="miembro">
-              <img src="directiva/parodi.png" alt="Imagen no disponible">
+              <img src="directiva/jm_parodi.png" alt="Imagen no disponible"onerror="this.onerror=null;this.src='img/logo/logo.png';">
               <h6>José Manuel Parodi</h6>
               <p>...</p>
           </div>
           <div class="miembro">
-              <img src="directiva/basaure.png" alt="Imagen no disponible">
+              <img src="directiva/n_basaure.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
               <h6>Nicolás Basure</h6>
               <p>Candidato a joven lider</p>
           </div>
           <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
-              <h6>Felipe Vandeputte</h6>
+              <img src="directiva/jm_silva.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
+              <h6>José Manuel Silva</h6>
               <p>Director ejecutivo</p>
           </div>
           <div class="miembro">
-              <img src="directiva/parodi.png" alt="Imagen no disponible">
-              <h6>José Manuel Parodi</h6>
-              <p>...</p>
+              <img src="directiva/ja_alvarez.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
+              <h6>Juan Antonio Álvarez</h6>
+              <p></p>
           </div>
           <div class="miembro">
-              <img src="directiva/basaure.png" alt="Imagen no disponible">
-              <h6>Nicolás Basure</h6>
-              <p>Candidato a joven lider</p>
-          </div>          
+              <img src="directiva/m_vial.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
+              <h6>Manuel Vial</h6>
+              <p></p>
+          </div>
+          <div class="miembro">
+              <img src="directiva/jm_gonzalez.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';" />
+              <h6>José Miguel González</h6>
+              <p></p>
+          </div>               
         </div>
       </div>
       <div id="equipo" class="tab-pane fade">
         <h3>Equipo</h3>
         <div class="row miembros">
-          <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="">
-                <h6>Felipe Vandeputte</h6>
-                <p>Director ejecutivo</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/parodi.png" alt="">
-              <h6>José Manuel Parodi</h6>
-              <p>...</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/basaure.png" alt="">
-              <h6>Nicolás Basure</h6>
-              <p>Candidato a joven lider</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
-                <h6>Felipe Vandeputte</h6>
-                <p>Director ejecutivo</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/parodi.png" alt="Imagen no disponible">
-              <h6>José Manuel Parodi</h6>
-              <p>...</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/basaure.png" alt="Imagen no disponible">
-              <h6>Nicolás Basure</h6>
-              <p>Candidato a joven lider</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
-                <h6>Felipe Vandeputte</h6>
-                <p>Director ejecutivo</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/parodi.png" alt="Imagen no disponible">
-              <h6>José Manuel Parodi</h6>
-              <p>...</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/basaure.png" alt="Imagen no disponible">
-              <h6>Nicolás Basure</h6>
-              <p>Candidato a joven lider</p>
-          </div>        
+            <div class="miembro">
+              <img src="equipo/b_menchaca.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Beatriz Menchaca</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/d_espinoza.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Diego Espinoza</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/f_delalastra.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Francisco de la Lastra</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/i_gana.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Ina Gana</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/j_castello.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Javier Castello</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/jm_mora.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Josemaria Mora</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/m_celedon.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Matias Celedon</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/m_parot.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Maria Parot</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/r_jimenez.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Rosario Jimenez</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/s_gana.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Sofia Gana</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/s_rios.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Santiago Rios</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/s_valdes.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Salvador Valdes</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/v_andrigetti.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Vicente Andriguetti</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/v_mariscal.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Vicente Mariscal</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/p_delabarra.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Patricio de la Barra</h6>
+                <p></p>
+            </div>
+            <div class="miembro">
+              <img src="equipo/s_alamos.png" alt="Imagen no disponible" 
+                onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Sebastián Álamos</h6>
+                <p></p>
+            </div>                               
         </div>
       </div>
       <div id="consejo_asesor" class="tab-pane fade">
         <h3>Consejo Asesor</h3>
         <div class="row miembros">
           <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="">
-                <h6>Felipe Vandeputte</h6>
-                <p>Director ejecutivo</p>
+              <img src="consejo/i_wulf.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
+              <h6>Iván Wulf</h6>
+              <p></p>
           </div>
           <div class="miembro">
-              <img src="directiva/parodi.png" alt="">
-              <h6>José Manuel Parodi</h6>
-              <p>...</p>
+              <img src="consejo/d_poblete.png" alt="Imagen no disponible"onerror="this.onerror=null;this.src='img/logo/logo.png';">
+              <h6>Daniel Poblete</h6>
+              <p></p>
           </div>
           <div class="miembro">
-              <img src="directiva/basaure.png" alt="">
-              <h6>Nicolás Basure</h6>
-              <p>Candidato a joven lider</p>
-          </div>
-          <div class="miembro">
-              <img src="directiva/vandeputte.png" alt="Imagen no disponible">
-                <h6>Felipe Vandeputte</h6>
-                <p>Director ejecutivo</p>
-          </div>       
+              <img src="consejo/a_lopezahermida.png" alt="Imagen no disponible" onerror="this.onerror=null;this.src='img/logo/logo.png';">
+              <h6>Alberto López-Hermida</h6>
+              <p></p>
+          </div>             
         </div>
-
       </div>
     </div>
     </div>
@@ -237,45 +289,47 @@
 <!-- inicio contenedor de calendario -->
 <div class="container" id="calendario">
   <h1 id="titulo_calendario">Calendario</h1>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+  <div class="franja_carrusel" style="background-color: white">
+    <div id="carrusel_calendario" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carrusel_calendario" data-slide-to="0" class="active"></li>
+        <li data-target="#carrusel_calendario" data-slide-to="1"></li>
+        <li data-target="#carrusel_calendario" data-slide-to="2"></li>
+        <li data-target="#carrusel_calendario" data-slide-to="3"></li>
+      </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      
-      <div class="item active">
-        <img src="calendario/marzo.png" alt="Marzo">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        
+        <div class="item active">
+          <img src="calendario/marzo.png" alt="Marzo">
+        </div>
+
+        <div class="item">
+          <img src="calendario/abril.png" alt="Abril">
+        </div>
+
+        <div class="item">
+          <img src="calendario/mayo.png" alt="Mayo">
+        </div>
+
+        <div class="item">
+          <img src="calendario/junio.png" alt="Junio">
+        </div>
       </div>
 
-      <div class="item">
-        <img src="calendario/abril.png" alt="Abril">
-      </div>
-
-      <div class="item">
-        <img src="calendario/mayo.png" alt="Mayo">
-      </div>
-
-      <div class="item">
-        <img src="calendario/junio.png" alt="Junio">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div> <!-- termina el carrusel -->
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#carrusel_calendario" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carrusel_calendario" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> <!-- termina el carrusel -->
+  </div>
 </div>
 <!-- fin contenedor de calendario -->
 
@@ -284,8 +338,10 @@
   <h2>Aporta</h2>
   <div class="row">
     <div class="col-sm-6">
-      <h3>Ideas</h3>
-      <p id="mensaje_formulario">Mandanos ideas que nos permitan seguir mejorando.</p>
+      <h3> <img src="img/ampolleta.png"> Ideas </h3>
+      
+      <!-- based on dinosoft labs from nounproject -->
+      <p id="mensaje_formulario">Mándanos ideas que nos permitan seguir mejorando.</p>
       <p>Mail: fundaciontrabun@gmail.com</p>
       <!-- <form>
       <div class="form-group">
@@ -308,7 +364,8 @@
     </form> -->
     </div>
     <div class="col-sm-6">
-      <h3>Plata</h3>
+      <h3> <img src="img/pesos.png"> Recursos </h3>
+
 
       <p>Nombre: Fundación Trabün</p>
       <p>Rut: 65.120.259 - 0</p>
@@ -321,7 +378,12 @@
 <!-- fin contenedor de aporta -->
 
 <!--footer-->
-
+<div class="container" id="fotter">
+  <li class="menu-social">
+    <a href="https://www.facebook.com/FundacionTrabun/?fref=ts" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+    <a href="https://www.instagram.com/fundaciontrabun/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+  </li>
+</div>
 
 <!-- <script>
 document.getElementById("boton_enviar").onclick = function () {

@@ -1,0 +1,85 @@
+<div class="miembro">
+              <img src="equipo/b_menchaca.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Beatriz Menchaca</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/d_espinoza.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Diego Espinoza</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/f_delalastra.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Francisco de la Lastra</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/i_gana.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Ina Gana</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/j_castello.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Javier Castello</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/jm_mora.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Josemaria Mora</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/m_celedon.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Matias Celedon</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/m_parot.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Maria Parot</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/r_jimenez.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Rosario Jimenez</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/s_gana.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Sofia Gana</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/s_rios.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Santiago Rios</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/s_valdes.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Salvador Valdes</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/v_andrigetti.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Vicente Andriguetti</h6>
+                <p></p>
+          	</div>
+          	<div class="miembro">
+              <img src="equipo/v_mariscal.png" alt="Imagen no disponible" 
+              	onerror="this.onerror=null;this.src='img/logo/logo.png';">
+                <h6>Vicente Mariscal</h6>
+                <p></p>
+          	</div>
+          	

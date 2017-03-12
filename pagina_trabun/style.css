@@ -1,19 +1,19 @@
-/* # para definir por id, . para definir por class*/
+/* gato para definir por id, punto para definir por class*/
 
 /* referencia la fuente al nombre puesto, en este caso, bms*/
 @font-face {
     font-family: "bms";
-    src: url("fonts/BlackmetalSans.ttf");
+    src: url("fuentes/BlackMetalSans.otf");
 }
 
 @font-face {
     font-family: "ale-sc";
-    src: url("fonts/alegreya/AlegreyaSansSC-Thin.otf");
+    src: url("fuentes/alegreya/AlegreyaSansSC-Thin.otf");
 }
 
 @font-face {
     font-family: "ale";
-    src: url("fonts/alegreya/AlegreyaSans-Thin.otf");
+    src: url("fuentes/alegreya/AlegreyaSans-Thin.otf");
 }
 
 /* instrucciones generales, que seran heredadas por los elementos interiores*/
@@ -30,12 +30,20 @@ h1{
     margin-bottom: 20px;
 }
 
+h1,h2,h3{
+	letter-spacing: 1px;
+}
+
 p {
 	font-family: "ale-sc";
 	text-align:justify;
 	font-size: 16px;
 }
 
+
+a{
+	color: #fff;
+}
 /* maneja el tamaño maximo de las imagenes*/
 body img{
 	max-width: 100%;
@@ -107,9 +115,25 @@ video{
 	float:right;
 }
 
-@media (max-width: 768px) {
+.navbar-header{
+	width: 100%;
+}
+.navbar-collapse ul, .navbar-nav li{
+	width: 100%;
+}
+.navbar-right{
+	text-align: center;
+}
+
+@media (min-width: 768px) {
 	.navbar-header{
-		width: 100%;
+		width: 20%;
+	}
+	.navbar-collapse ul, .navbar-nav li{
+		width: auto;
+	}
+	.navbar-right{
+		text-align: center;
 	}
 }
 
@@ -147,6 +171,7 @@ li.menu-social a{
     z-index: -100;
     background-image: url(img/img-1.jpg);
     background-size: cover;
+    padding: 60 0 0 0;
 }
 
 /* define dimensiones, alineacion de texto, lo que muestra al sobrepasar los limites y el color de la letra*/
@@ -161,7 +186,7 @@ li.menu-social a{
 /*manejo de las imagenes de la portada*/
 /* define la distancia al margen superior, el alto y ancho maximos de la imagen (con respectoa a la original)*/
 #portada img{
-    margin-top: 5%;
+    margin-top: 75px;
     max-height: 50%;
     max-width: 80%;
     z-index: 100;
@@ -170,6 +195,8 @@ li.menu-social a{
 .container{
 	opacity: 0.95;
 	padding: 30px 50px 30px 50px;
+	width: 100%;
+	margin: 0 0 0 0;
 }
 
 /*manejo de que hacemos*/
@@ -191,16 +218,17 @@ li.menu-social a{
 	background-color: rgba(256,237,0,0.9); /*#ffed00*/ 
 	opacity:0.99; 
 	width:100%;
+	padding: 30px 0 30px 0;
 }
 
 #titulo_calendario{
 	background-image: url(img/logo/mancha_titulo-01.png);
-    background-size: normal;
     background-size: 502px 64px;
     background-repeat: no-repeat;
     background-position-x: center;
     padding: 20px 0 10px 0;
     background-position-y: bottom;
+    margin-top: -12px;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -220,7 +248,9 @@ li.menu-social a{
      opacity: 1;
 }
 
-
+#carrusel_calendario img{
+	width:75%;
+}
 
 /*manejo de quienes somos*/
 #quienes_somos{
@@ -236,10 +266,18 @@ li.menu-social a{
 	color: white;
 }
 
+#quienes_somos ul.nav-tabs {
+	width: 100%;
+}
+
 #quienes_somos ul.nav-tabs>li>a:hover{
 	background-color: rgba(256,256,256,0);
 	border: 0px;
 	color: #f5f5f5;
+}
+
+#quienes_somos ul.nav-tabs>li>a {
+	padding-left: 20px;
 }
 
 #quienes_somos>ul.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -300,9 +338,31 @@ li.menu-social a{
 	width:100%;
 }
 
+
+#aporta img{
+    margin: 20px 20px 20px 0;
+    height: 46px;
+    z-index: 100;
+}
+
+#fotter{
+	background-color: #444;
+	color: #ddd;
+	text-align: center;
+	font-size: 16px;
+}
+
+#fotter li{
+	display: inherit;
+}
+
+#fotter a{
+	padding: 0 10px 0 10px;
+}
 /*#galery div{
 	height: 300px;
 }*/
+
 
 ul{
 	list-style-type: none;
